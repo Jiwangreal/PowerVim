@@ -49,8 +49,8 @@ PowerVim的快捷键以;为开始
 这里列出的快捷键是PowerVim配置的，vim通用的快捷键就不一一列出。
 ```
 正常模式下的快捷键（非插入模式）
-;n              // 打开文件目录树显示在屏幕左侧
-;m              // 打开当前函数和变量目录树显示在屏幕右侧
+;n              // 打开文件目录树显示在屏幕左侧，有用
+;m              // 打开当前函数和变量目录树显示在屏幕右侧，有用
 ;h              // 光标移动到左窗口 
 ;l              // 光标移动到右窗口
 ;k              // 光标移动到上窗口
@@ -62,13 +62,13 @@ PowerVim的快捷键以;为开始
 ;2              // 光标快速移动到行末
 ;a              // 快速切换.h和cpp文件，写C++的时候很方便
 ;e              // 打开一个新文件
-;z              // 切回shell交互命令，输入fg在切回vim，非常实用
+;z              // 切回shell交互命令，输入fg在切回vim，非常实用，有用
 ;s              // 水平分屏，并打开文件目录选取想打开的文件，如果想新建文件，;e 就好 
 ;v              // 竖直分屏，并打开文件目录选取想打开的文件，如果想新建文件，;e 就好 
 ;fw             // 查找项目内关键字，前提是你的系统已经按照了ACK 
 ;ff             // 查找项目内文件名 
-;gt             // 跳转到变量或者函数定义的地方，前提是安装ctags，并且在在PowerVim输入 ;tg命令 Jump to the definition of the keyword where the cursor is located, but make sure you have make ctags
-;gr             // 跳回，对应着;gt
+;gt             // 跳转到变量或者函数定义的地方，前提是安装ctags(yum install -y ctags)，并且在在PowerVim输入 ;tg命令 Jump to the definition of the keyword where the cursor is located, but make sure you have make ctags，有用
+;gr             // 跳回，对应着;gt，有用
 ;tg             // 对当前目录打ctag 
 ;y              // 保存当前选中的目录到系统剪切板，前提是vim支持系统剪切板的寄存器
 ;gg             // 按顺序光标跳转各个窗口
