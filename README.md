@@ -85,6 +85,11 @@ gcc             // 快速当前行
 }               // 光标向下移动一个代码块
 di(             // 删除括号里的内容
 di{             // 删除花括号里的内容
+
+//其他补充
+/\<printf\> //eg:只会精确匹配: printf，精确搜索："<“表示匹配单词开头，”>“表示匹配单词末尾，需要加转义符"\"
+
+
 ```
 # 插件
 * a.vim [https://github.com/vim-scripts/a.vim](https://github.com/vim-scripts/a.vim)
